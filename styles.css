@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, a, ul, li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul, li, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #929AAE;
+}
+
+li {
+    list-style: none;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    background-color: #394B71;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    align-items: center;
+}
+.header_item {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.header_a:hover{
+    color: #D8E2EC;
+}
+
+/* main */
+
+/* portada */
+.inicio {
+    background-color: aqua;
+    background-image: url(assets/img/UshuaiaHeroPage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.inicio_textos {
+    color: #D8E2EC;
+    padding: 5%;
+    padding-top: 30%;
+    width: 50%;
+}
+
+.inicio_title {
+    margin-bottom: 2%;
+    font-size: 48px;
+}
+
+/*about*/
+.acerca{
+    background-color: #D8E2EC;
+    color: #2b3b5f;
+    height: 400px;
+    text-align: center;
+    padding: 5%;
+}
+
+.acerca_title{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+/*places*/
+.lugares{
+    padding: 5%;
+    background-color: #394B71;
+    height: 1800px;
+}
+
+.lugares_title{
+    color: #929AAE;
+    text-align: center;
+}
+
+.card{
+    background-color: #D8E2EC;
+    color: #2b3b5f;
+    margin: 2%;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.card_img-box {
+    overflow: hidden;
+    width: 30%;
+    border-radius: 10px;
+}
+.card_caption {
+    width: 60%;
+    padding-block: 5%;
+    color: 09132E;
+}
+
+/*activities*/
+.actividades{
+    background-color: #D8E2EC;
+    color: #394B71;
+    height: 700px;
+    padding: 5%;
+    text-align: center;
+}
+
+.actividades_title{
+    margin-bottom: 2%;
+}
+
+.actividades_video-box{
+    margin-top: 3%;
+}
+
+/*footer*/
+.footer{
+    background: #09132E;
+    color: #929AAE;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.footer_link{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_a:hover{
+    color: #D8E2EC;
+}
+
+
